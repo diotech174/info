@@ -15,7 +15,7 @@ namespace info
     public partial class Form1 : Form
     {
         private string text_inicio = "";
-        private string RunningPath = AppDomain.CurrentDomain.BaseDirectory;
+        private string RunningPath = AppDomain.CurrentDomain.BaseDirectory; // BASE DO DIRETÓRIO RAIZ (ONDE O PROGRAMA ESTÁ INSTALADO NO SISTEMA OPERACINAL)
 
         public Form1()
         {
@@ -24,20 +24,20 @@ namespace info
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.text_inicio = txtManual.Text;
+            this.text_inicio = txtManual.Text; // RESERVA VALOR PADRÃO
             try
             {
-                string[] dirs = Directory.GetDirectories(RunningPath+"/docs/", "*");
+                string[] dirs = Directory.GetDirectories(RunningPath+"/docs/", "*"); // SCANEANDO INDEX (PASTAS)
 
                 int i = 1;
                 foreach (string dir in dirs)
                 {
-                    tvwTitulos.Nodes.Add(dir.Replace(RunningPath + "/docs/", ""));
+                    tvwTitulos.Nodes.Add(dir.Replace(RunningPath + "/docs/", "")); // CRIANDO NODE NO TREEVIEW
 
-                    string[] files = Directory.GetFiles(dir, "*");
+                    string[] files = Directory.GetFiles(dir, "*"); // SCANEANDO FILES (MANUAIS DE INSTRUÇÃO)
                     foreach (string file in files)
                     {
-                        tvwTitulos.Nodes[i].Nodes.Add("* " + file.Replace(dir+@"\", "").Replace(".txt", ""));
+                        tvwTitulos.Nodes[i].Nodes.Add("* " + file.Replace(dir+@"\", "").Replace(".txt", "")); // CRIANDO CHILD
                     }
 
                     i++;
@@ -47,19 +47,19 @@ namespace info
             {
                 MessageBox.Show(ex.Message, "Erro:", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
+        } // Form1_Load()
 
-        private void tvwTitulos_AfterSelect(object sender, TreeViewEventArgs e)
+        private void tvwTitulos_AfterSelect(object sender, TreeViewEventArgs e) // SELECIONADO MANUAL DE INSTRUÇÃO PARA LEITURA
         {
             string node_text = tvwTitulos.SelectedNode.Text;
 
-            if (node_text == "Inicio")
+            if (node_text == "Inicio") // PAGINA DE APRESENTAÇÃO DA DOCUMANTAÇÃO
             {
-                foreach (Control item in txtManual.Controls.OfType<LinkLabel>().ToList())
+                foreach (Control item in txtManual.Controls.OfType<LinkLabel>().ToList()) // REMOVENDO LINKLABELS
                 {
                     txtManual.Controls.Remove(item);
                 }
-                txtManual.Text = this.text_inicio;
+                txtManual.Text = this.text_inicio; // RETORNA AO TEXTO VALOR PADRÃO
             }
             else
             {
@@ -77,21 +77,21 @@ namespace info
 
                             if (filename == node_selected)
                             {
-                                foreach (Control item in txtManual.Controls.OfType<LinkLabel>().ToList())
+                                foreach (Control item in txtManual.Controls.OfType<LinkLabel>().ToList())  // REMOVENDO LINKLABELS
                                 {
                                     txtManual.Controls.Remove(item);
                                 }
 
-                                txtManual.Text = getTextFile(file);
+                                txtManual.Text = getTextFile(file); // OBTENDO CONTEÚDO DO ARQUIVO DE TEXTO
                                 break;
                             }
                         }
                     }
                 }
             }
-        }
+        } // tvwTitulos_AfterSelect()
 
-        private string getTextFile(string fileName)
+        private string getTextFile(string fileName) // LÊ CONTEÚDO DE ARQUIVO '.TXT'
         {
             string text = "";
 
@@ -107,7 +107,7 @@ namespace info
             }
 
             return text;
-        }
+        } // getTextFile()
 
         private void Pesquisar()
         {
@@ -162,7 +162,7 @@ namespace info
             }
             else
             {
-                foreach (Control item in txtManual.Controls.OfType<LinkLabel>().ToList())
+                foreach (Control item in txtManual.Controls.OfType<LinkLabel>().ToList())  // REMOVENDO LINKLABELS
                 {
                     txtManual.Controls.Remove(item);
                 }
@@ -186,7 +186,7 @@ namespace info
             }
 
             txtPesquisa.Clear();
-        }
+        } // Pesquisar
 
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
@@ -199,7 +199,7 @@ namespace info
                 MessageBox.Show("Digite sua pesquisa", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtPesquisa.Focus();
             }
-        }
+        } // btnPesquisar_Click()
 
         private void txtPesquisa_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -216,5 +216,5 @@ namespace info
                 }
             }
         }
-    }
+    } // txtPesquisa_KeyPress()
 }
