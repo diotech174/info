@@ -1,0 +1,35 @@
+
+
+   COMO CONFIGURAR OS DADOS DA EMPRESA
+   
+   
+   OBSERVAÇÕES.
+   
+   Esta configuração permite que os dados da empresa sejam exibidos na Nota Fiscal 
+   e  na etiqueta de “Emitente” dos pedidos.
+   
+   
+   CAMPOS:
+   
+   ---------------------------------------------------------
+   | CAMPO                                    OBRIGATÓRIO? |
+   ---------------------------------------------------------
+   | Razão Social                             SIM          |
+   | CNPJ                                     SIM          |
+   | Telefone                                 NÃO          |
+   | Inscrição Estadual                       NÃO          |
+   | Endereço                                 SIM          |
+   | Número                                   SIM          |
+   | Complemento                              NÃO          |
+   | CEP                                      SIM          |
+   | Bairro                                   SIM          |
+   | Município                                SIM          |
+   | UF                                       SIM          |
+   ----------------------------------------------------------
+   
+   1. Com o sistema aberto, clique sobre menu de “Configurações” e selecione o item
+      “Dados da Empresa”.
+      
+   2. Preencha os campos obrigatórios e clique no botão “Salvar”.
+      
+   3. Se tudo estiver correto será exibida a mensagem “Salvo com sucesso!”.

@@ -1,0 +1,20 @@
+
+
+   CONFIGURAR IMPRESSORA
+   
+   
+   OBSERVAÇÕES:
+   
+   Esta configuração permite que o usuário defina a impressora padrão do 
+   “Sistema Operacional”.
+   
+   
+   1. Com o sistema aberto, clique sobre menu de “Configurações” e selecione o item
+   “Impressora Padrão”.
+      
+   2. Selecione a impressora desejada e clique no botão “Salvar”.
+      
+   3. Se tudo estiver correto todos os documentos serão impressos na impressora escolhida.
+   
+   
+      

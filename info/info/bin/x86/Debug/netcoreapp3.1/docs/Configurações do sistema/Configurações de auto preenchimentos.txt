@@ -1,0 +1,45 @@
+   
+   CONFIGURAÇÃO DE AUTO PREENCHIMENTO 
+   
+   
+   OBSERVAÇÕES:
+   
+   Esta configuração permite que alguns formulários do sistema crie um novo 
+   registro com valores predefinidos pelo usuário. Para o preenchimento dos 
+   campos descritos abaixo é necessário antes cadastrar os Clientes, Represen-
+   tantes, Tabela de preços, Locais de entrega e transportadoras.
+   
+   
+   CAMPOS (PARA NOVOS PEDIDOS):
+   
+   ----------------------------------------------------------------------
+   |  CAMPO                 VALOR                          OBRIGATÓRIO? |
+   ----------------------------------------------------------------------
+   |  Cliente               id_cliente (número)            SIM          |
+   |  Representante         id_represente (número)         SIM          |
+   |  Tabela de preço       id_tabela                      SIM          |
+   |  Local de Entrega      id_local (número)              SIM          |
+   |  Transportadora        id_transportadora (número)     SIM          |
+   ----------------------------------------------------------------------
+   
+   
+   CAMPOS (PARA NOVOS ROMANEIOS):
+   
+   ----------------------------------------------------------------------
+   |  CAMPO                  VALOR                        OBRIGATÓRIO?  |
+   ----------------------------------------------------------------------
+   |  Cliente                id_cliente (número)          SIM           |
+   |  Representante          id_represente (número)       SIM           |
+   |  Tabela de preço        id_tabela                    SIM           |
+   |  Local de Entrega       id_local (número)            SIM           |
+   ----------------------------------------------------------------------
+   
+   
+   1. Com o sistema aberto, clique sobre menu de “Configurações” e selecione o item
+   “Auto Preenchimentos”.
+   
+   2. Desbloqueie o formulário clicando no botão “Liberar”.
+         
+   3. Preencha os campos obrigatórios e clique no botão “Salvar”.
+         
+   4. Se tudo estiver correto será exibida a mensagem “Salvo com sucesso!”.

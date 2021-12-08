@@ -1,0 +1,29 @@
+  
+   COMO CONFIGURAR O BANCO DE DADOS DO SISTEMA
+   
+   
+   OBSERVAÇÕES:
+   
+   Esta configuração permite que o sistema se comunique com o banco de dados, ou seja, 
+   sem ela o sistema não funcionará. No caso do primeiro uso do sistema, a mesma será 
+   apresentada ao usuário antes da tela de login.
+   
+   
+   CAMPOS:
+   
+   -------------------------------------------------------------------------------------------
+   |  CAMPO         DESCRICÃO               VALOR                             OBRIGATÓRIO ?  |
+   -------------------------------------------------------------------------------------------
+   |  Host          URL do servidor         Ex. 10.0.0.130                    SIM            |           
+   |  Database      Nome Databese           Ex. olfa                          SIM            |
+   |  User          Usuário                 Ex. root                          SIM            |
+   |  Password      Senha                   -------------                     NÃO            |
+   -------------------------------------------------------------------------------------------
+   
+   1. Com o sistema aberto, clique sobre menu de “Configurações” e selecione o item
+   “Configurar Database”.
+   
+   2. Preencha os campos obrigatórios e clique no botão “Salvar”.
+   
+   3. Se tudo estiver correto será exibida a mensagem “Connected” ao lado do botão “Salvar”.
+   

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MppKME8tazuRorzeNoqesD7Skf7XqkG795nKb929ViOYIV3jRQK4raX6hIvwdK0JY/aJNuaDITyyovyDHrc6sg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\OLFA\\source\\repos\\info\\info\\info.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\OLFA\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\3.1.18\\microsoft.netcore.app.host.win-x86.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}

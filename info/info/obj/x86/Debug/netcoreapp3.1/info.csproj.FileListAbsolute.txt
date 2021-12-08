@@ -1,0 +1,16 @@
+C:\Users\OLFA\source\repos\info\info\bin\x86\Debug\netcoreapp3.1\info.exe
+C:\Users\OLFA\source\repos\info\info\bin\x86\Debug\netcoreapp3.1\info.deps.json
+C:\Users\OLFA\source\repos\info\info\bin\x86\Debug\netcoreapp3.1\info.runtimeconfig.json
+C:\Users\OLFA\source\repos\info\info\bin\x86\Debug\netcoreapp3.1\info.runtimeconfig.dev.json
+C:\Users\OLFA\source\repos\info\info\bin\x86\Debug\netcoreapp3.1\info.dll
+C:\Users\OLFA\source\repos\info\info\bin\x86\Debug\netcoreapp3.1\info.pdb
+C:\Users\OLFA\source\repos\info\info\obj\x86\Debug\netcoreapp3.1\info.csproj.AssemblyReference.cache
+C:\Users\OLFA\source\repos\info\info\obj\x86\Debug\netcoreapp3.1\info.Form1.resources
+C:\Users\OLFA\source\repos\info\info\obj\x86\Debug\netcoreapp3.1\info.Properties.Resources.resources
+C:\Users\OLFA\source\repos\info\info\obj\x86\Debug\netcoreapp3.1\info.csproj.GenerateResource.cache
+C:\Users\OLFA\source\repos\info\info\obj\x86\Debug\netcoreapp3.1\info.AssemblyInfoInputs.cache
+C:\Users\OLFA\source\repos\info\info\obj\x86\Debug\netcoreapp3.1\info.AssemblyInfo.cs
+C:\Users\OLFA\source\repos\info\info\obj\x86\Debug\netcoreapp3.1\info.csproj.CoreCompileInputs.cache
+C:\Users\OLFA\source\repos\info\info\obj\x86\Debug\netcoreapp3.1\info.dll
+C:\Users\OLFA\source\repos\info\info\obj\x86\Debug\netcoreapp3.1\info.pdb
+C:\Users\OLFA\source\repos\info\info\obj\x86\Debug\netcoreapp3.1\info.genruntimeconfig.cache

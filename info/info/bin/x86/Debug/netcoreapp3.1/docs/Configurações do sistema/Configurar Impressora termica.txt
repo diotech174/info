@@ -1,0 +1,34 @@
+
+
+   COMO CONFIGURAR A IMPRESSORA TÉRMICA
+   
+   
+   OBSERVAÇÕES:
+   
+   Esta configuração permite que o usuário defina os parâmetros de comunicação 
+   com a impressora térmica, ou seja, a mesma onde serão impressas as etiquetas
+   dos produtos que o cliente solicitou em seu pedido.
+   
+   
+   
+   CAMPOS
+   
+   ---------------------------------------------------------------------------------
+   |   CAMPO             DESCRIÇÃO                     VALOR         OBRIGATÓRIO?  |
+   ---------------------------------------------------------------------------------
+   |   Máquina           Computador da Impressora      IP OU Nome    SIM           |
+   |   Porta             Porta lógica de comunicação   LPT/USB…      SIM           |
+   |   Impressora        Nome da impressora            Ex. “btp”     SIM           |
+   |   Pasta (batch)     Saída de arquivos             Ex. “tmp”     SIM           |
+   ---------------------------------------------------------------------------------
+   
+   
+   1. Com o sistema aberto, clique sobre menu de “Configurações” e selecione o item
+   “Impressora Térmica”.
+        
+   2. Preencha os campos obrigatórios e clique no botão “Testar”.
+         
+   3. Se tudo estiver correto uma etiqueta de teste será impressa.
+   
+   4. Clique no botão “Salvar” para concluir a configuração.
+   

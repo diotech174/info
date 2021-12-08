@@ -1,0 +1,41 @@
+   
+   CONFIGURAR SETORES DA PRODUÇÃO
+   
+   
+   OBSERVAÇÕES:
+   
+   Esta configuração permite que o usuário escolha o primeiro setor em que as
+   ordens de produção (Ficha) estarão ao serem geradas no sistema, e na mesma
+   também será definido o último setor, ou seja, aquele que considera a conclusão
+   da produção de um item de pedido.
+   
+   
+   CAMPOS SETOR INDEFINIDO  (PRIMEIRO SETOR)
+   
+   
+   ----------------------------------------------------------------
+   |  CAMPO                     VALOR                OBRIGATÓRIO? |
+   ----------------------------------------------------------------
+   |  Nº Setor                  id_setor (número)    SIM          |
+   ----------------------------------------------------------------
+   
+   
+   CAMPOS SETOR FINALIZADO  (ÚLTIMO SETOR)
+   
+   
+   ----------------------------------------------------------------
+   |  CAMPO                VALOR                   OBRIGATÓRIO?   |
+   ----------------------------------------------------------------
+   |  Nº Setor             id_setor (número)      SIM             |
+   ----------------------------------------------------------------
+                       
+   
+   1. Com o sistema aberto, clique sobre menu de “Configurações” e selecione o item
+      “Configurar Produção”.
+      
+   2. Preencha os campos obrigatórios e clique no botão “Salvar”.
+      
+   3. Se tudo estiver correto será exibida a mensagem “Alterações salvas com sucesso!”.
+
+
+
