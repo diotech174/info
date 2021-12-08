@@ -55,6 +55,10 @@ namespace info
 
             if (node_text == "Inicio")
             {
+                    foreach (Control item in txtManual.Controls.OfType<LinkLabel>().ToList())
+                    {
+                        txtManual.Controls.Remove(item);
+                    }
                 txtManual.Text = this.text_inicio;
             }
             else
