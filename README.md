@@ -20,7 +20,7 @@ EX:
       
 02 Controle de clientes (index)
       |
-      ---> Como cadasrrar um cliente (manual)
+      ---> Como cadastrar um cliente (manual)
       |
       ---> ... (outros manuais)
       
