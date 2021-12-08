@@ -115,11 +115,11 @@ namespace info
 
             ArrayList resultados = new ArrayList();
 
-            string[] dirs = Directory.GetDirectories(RunningPath + "/docs/", "*");
+            string[] dirs = Directory.GetDirectories(RunningPath + "/docs/", "*"); // SCANEANDO INDEX (PASTAS)
 
             foreach (string dir in dirs)
             {
-                string[] files = Directory.GetFiles(dir, "*");
+                string[] files = Directory.GetFiles(dir, "*"); // SCANEANDO FILES (MANUAIS DE INSTRUÇÃO)
                 foreach (string file in files)
                 {
                     string filename = file.Replace(dir, "").Replace("\\", "").Replace(".txt", "");
@@ -135,7 +135,7 @@ namespace info
                     }
                     else
                     {
-                        string text = getTextFile(file);
+                        string text = getTextFile(file); // OBTENDO CONTEÚDO DO ARQUIVO DE TEXTO
 
                         if (text.ToLower().IndexOf(pesquisa.ToLower()) != -1)
                         {
@@ -151,7 +151,7 @@ namespace info
                 }
             }
 
-            if (resultados.Count == 0)
+            if (resultados.Count == 0) // QUANDO NÃO ACHOU NENHUM ASSUNTO RELACIONADO A PESQUISA
             {
                 foreach (Control item in txtManual.Controls.OfType<LinkLabel>().ToList())
                 {
