@@ -1,5 +1,5 @@
 # info
-Central de Ajuda para Sistemas
+Central de Ajuda para Sistemas Desktop
 
 
 
