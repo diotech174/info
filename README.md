@@ -17,13 +17,13 @@ EX:
       |
       ---> Como configurar Servidor (manual)
       |
-      ---> ... (outros manuais)
+      ---> ... (outros manuais neste mesmo index)
       
 02 Controle de clientes (index)
       |
       ---> Como cadastrar um cliente (manual)
       |
-      ---> ... (outros manuais)
+      ---> ... (outros manuais neste mesmo index)
       
       
       
