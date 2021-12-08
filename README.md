@@ -30,4 +30,4 @@ EX:
 
 DEPENDENCIAS:
 -------------------------------------------
-Requer .NET core 3.1 ou superior
+.NET core 3.1 ou superior
