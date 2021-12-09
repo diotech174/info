@@ -215,6 +215,6 @@ namespace info
                     txtPesquisa.Focus();
                 }
             }
-        }
-    } // txtPesquisa_KeyPress()
+        } // txtPesquisa_KeyPress()
+    }
 }
